@@ -23,8 +23,8 @@ function App() {
   }
   
   return (
-    <div className="App" onClick={handleClick}>
-      <Eightball object={object} /> 
+    <div className="App" >
+      <Eightball object={object} handleClick={handleClick} /> 
     </div>
   );
 }

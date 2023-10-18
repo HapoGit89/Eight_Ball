@@ -1,8 +1,8 @@
 
-function Eightball({object}){
+function Eightball({object, handleClick }){
     
 return (
-    <div className="eight-ball" style={{backgroundColor: object.color}}>
+    <div className="eight-ball" style={{backgroundColor: object.color}} onClick={handleClick}>
        <h1 className="text">{object.msg}</h1>
     </div>
 )
